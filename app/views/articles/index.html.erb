@@ -9,6 +9,7 @@
             <td> <%= article.text %> </td>
             <th>Ref</th>
             <td> <%= link_to 'Show', article_path(article) %> </td>
+            <td> <%= link_to 'Edit Here..', edit_article_path(article) %> </td>
         </tr>
     <% end %>
 </table>
