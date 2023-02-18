@@ -1,0 +1,5 @@
+ROUTES = {
+    'GET' => {
+        '/'=> 'StoriesController::index'
+    }
+}
